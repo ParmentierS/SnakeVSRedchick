@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MapCreator()
+comment0.text=\n@pre\ \:\n@post\:\n\n\n
+comment1.params=args
+comment1.target=void\ main(String[])
+comment1.text=\n@pre\ \:\n@post\:\n\n
+numComments=2

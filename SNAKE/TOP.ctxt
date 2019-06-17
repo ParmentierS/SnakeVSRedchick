@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=TOP()
+comment0.text=\nConstructeur\ d'un\ espace\ graphique\ pour\ le\ jeux.\n\n@pre\:\ \n@post\:\ Cr\u00E9ation\ d'un\ espace\ graphique\ sur\ lequel\ sera\ afficher\ la\ partie\ graphique\ du\ jeux.\n\n
+comment1.target=void\ refrech()
+comment1.text=\npermet\ l'acctualisation\ des\ scores\n\n@pre\:\ \n@post\:\ recharge\ le\ fichier\ des\ scors.\n\n
+comment2.params=g
+comment2.target=void\ paintComponent(Graphics)
+comment2.text=\nCr\u00E9ation\ de\ l'espace\ graphique.\n\n@pre\:\ -\n@post\:\ Cr\u00E9ation\ de\ l'espace\ graphique.\n\n
+numComments=3

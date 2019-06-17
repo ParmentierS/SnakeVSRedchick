@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=JPlotPanel()
+comment0.text=\nConstructeur\ d'un\ espace\ graphique\ pour\ le\ jeux.\n\n@pre\:\ \n@post\:\ Cr\u00E9ation\ d'un\ espace\ graphique\ sur\ lequel\ sera\ afficher\ la\ partie\ graphique\ du\ jeux.\n\n
+comment1.params=CLIENT
+comment1.target=void\ SetClient(Client)
+comment1.text=\nConstructeur\ d'un\ espace\ graphique\ pour\ le\ jeux.\n\n@pre\:\ \n@post\:\ Cr\u00E9ation\ d'un\ espace\ graphique\ sur\ lequel\ sera\ afficher\ la\ partie\ graphique\ du\ jeux.\n\n
+comment2.params=H\ L\ ELEMENT
+comment2.target=void\ Setmap(int,\ int,\ int)
+comment2.text=\nActualise\ l'\u00E9l\u00E9ment\ se\ trouvant\ au\ coordonn\u00E9\ H-1\ et\ L-1\ par\ "ELEMENT".\ \n\n@pre\:\ hauteur\ "H"\ et\ largeur\ "L"\ qui\ doivent\ etre\ compris\ entre\ 1\ et\ 20,\ "ELEMENT"\ dois\ valoir\ un\ des\ \u00E9l\u00E9ment\ de\ construction\ de\ la\ carte.\n@post\:\ -\n\n
+comment3.params=m
+comment3.target=void\ Setmap(int[][])
+comment3.text=\nremplace\ la\ carte\ actuelle\ pr\ celle\ envoyer\ en\ argument.\n\n@pre\:\ Tableau\ a\ deux\ dimensions\ d'entier\ "m"\ repr\u00E9sentant\ la\ carte\ du\ jeux,\ doit\ etre\ de\ tail\ 20\ 20,\ le\ surplus\ ne\ sera\ pas\ pris\ en\ compte.\n@post\:\ -\n\n
+comment4.target=int[][]\ GetMap()
+comment4.text=\nPermet\ de\ r\u00E9cup\u00E9r\u00E9\ la\ carte\ du\ jeux.\n\n@pre\:\ -\n@post\:\ Renvoit\ un\ tableau\ a\ deux\ dimensions\ d'entier\ repr\u00E9sentant\ la\ carte\ du\ jeux.\n\n
+comment5.params=isover
+comment5.target=void\ GameOver(boolean)
+comment5.text=\npermet\ de\ g\u00E9r\u00E9\ la\ fin\ du\ jeux\ via\ un\ affichage.\n\n@pre\:\ -\n@post\:\ affiche\ une\ image\ GameOver\ si\ isover\ \=\ True\ sinon\ rien\n\n
+comment6.params=isstart
+comment6.target=void\ NewGame(boolean)
+comment6.text=\npermet\ de\ g\u00E9r\u00E9\ le\ d\u00E9but\ du\ jeux\ via\ un\ affichage.\n\n@pre\:\ -\n@post\:\ affiche\ une\ image\ NewGame\ si\ isstart\ \=\ True\ sinon\ rien\n\n
+comment7.params=g
+comment7.target=void\ paintComponent(Graphics)
+comment7.text=\nCr\u00E9ation\ de\ l'espace\ graphique.\n\n@pre\:\ -\n@post\:\ Cr\u00E9ation\ de\ l'espace\ graphique.\n\n
+numComments=8

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=clientSocket\ Parent
+comment0.target=Client(Socket,\ GameReseau)
+comment0.text=\nconstructeur,\ initialise\ la\ classe\ et\ d\u00E9marre\ la\ boucle\ infini\ de\ traitement\n\n
+comment1.params=Information
+comment1.target=boolean\ Send(String)
+comment1.text=\n\n\n@pre\ \:\n@post\:\n\n
+comment2.target=void\ run()
+comment2.text=\npermet\ la\ cr\u00E9ation\ d'une\ boucle\ infini\ qui\ ne\ s'occupe\ que\ du\ lien,\ de\ la\ communication\ entre\ le\ client\ et\ la\ base\ de\ donn\u00E9e.\n\n@param\ \ \n@return\ \ \ \ \ \ \n\n
+numComments=3

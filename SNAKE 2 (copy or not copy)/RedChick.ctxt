@@ -1,0 +1,36 @@
+#BlueJ class context
+comment0.params=lvl\ x\ y
+comment0.target=RedChick(int,\ int,\ int)
+comment1.params=map\ XREDCHUCK\ YREDCHUCK\ XSnake\ YSnake\ lvl
+comment1.target=int\ position(int[][],\ int,\ int,\ int[],\ int[],\ int)
+comment1.text=private\ int\ trouverLaBonnePosition(int\ XREDCHUCK,\ int\ YREDCHUCK\ ,\ int\ XSnake,\ int\ YSnake)\n{\nint[][]\ TERRAIN\ \=\ createWarningMap(XSnake,YSnake);\n\n\nif\ (TERRAIN[YREDCHUCK][XREDCHUCK+1]\=\=2147483647)\n{TERRAIN[YREDCHUCK][XREDCHUCK+1]\ \=\ 0;}\nif\ (TERRAIN[YREDCHUCK][XREDCHUCK-1]\=\=2147483647)\n{TERRAIN[YREDCHUCK][XREDCHUCK-1]\ \=\ 0;}\nif\ (TERRAIN[YREDCHUCK+1][XREDCHUCK]\=\=2147483647)\n{TERRAIN[YREDCHUCK+1][XREDCHUCK]\ \=\ 0;}\nif\ (TERRAIN[YREDCHUCK-1][XREDCHUCK]\=\=2147483647)\n{TERRAIN[YREDCHUCK-1][XREDCHUCK]\ \=\ 0;}\n\nfor(int\ i\ \=\ 0;\ i\ <\ map[0].length;i++)\n{\nfor(int\ j\ \=\ 0;\ j\ <\ map.length\ ;\ j++)\n{\nif\ (TERRAIN[i][j]\ \=\=\ 2147483647)\nSystem.out.print("\u00A7\ \ ");\nelse\ if(TERRAIN[i][j]\ <\ 10)\nSystem.out.print(TERRAIN[i][j]\ +\ "\ \ ");\nelse\nSystem.out.print(TERRAIN[i][j]\ +\ "\ ");\n}\nSystem.out.print("\\n");\n}\n\nif\ (TERRAIN[YREDCHUCK][XREDCHUCK+1]>TERRAIN[YREDCHUCK][XREDCHUCK-1]\ &&\ TERRAIN[YREDCHUCK][XREDCHUCK+1]>\=TERRAIN[YREDCHUCK+1][XREDCHUCK]\ &&\ TERRAIN[YREDCHUCK][XREDCHUCK+1]>\=TERRAIN[YREDCHUCK+1][XREDCHUCK]\ &&\ TERRAIN[YREDCHUCK][XREDCHUCK+1]\ \!\=\ 0)\n{return\ RIGHT;}\nif\ (TERRAIN[YREDCHUCK][XREDCHUCK-1]>TERRAIN[YREDCHUCK][XREDCHUCK+1]\ &&\ TERRAIN[YREDCHUCK][XREDCHUCK-1]>\=TERRAIN[YREDCHUCK-1][XREDCHUCK]\ &&\ TERRAIN[YREDCHUCK][XREDCHUCK-1]>\=TERRAIN[YREDCHUCK-1][XREDCHUCK]\ &&\ TERRAIN[YREDCHUCK][XREDCHUCK-1]\ \!\=\ 0)\n{return\ LEFT;}\nif\ (TERRAIN[YREDCHUCK+1][XREDCHUCK]>TERRAIN[YREDCHUCK-1][XREDCHUCK]\ &&\ TERRAIN[YREDCHUCK+1][XREDCHUCK]>\=TERRAIN[YREDCHUCK][XREDCHUCK-1]\ &&\ TERRAIN[YREDCHUCK+1][XREDCHUCK]>\=TERRAIN[YREDCHUCK][XREDCHUCK+1]\ &&\ TERRAIN[YREDCHUCK+1][XREDCHUCK]\ \!\=\ 0)\n{return\ DOWN;}\nif\ (TERRAIN[YREDCHUCK-1][XREDCHUCK]>TERRAIN[YREDCHUCK+1][XREDCHUCK]\ &&\ TERRAIN[YREDCHUCK-1][XREDCHUCK]>\=TERRAIN[YREDCHUCK][XREDCHUCK-1]\ &&\ TERRAIN[YREDCHUCK-1][XREDCHUCK]>\=TERRAIN[YREDCHUCK][XREDCHUCK+1]\ &&\ TERRAIN[YREDCHUCK-1][XREDCHUCK]\ \!\=\ 0)\n{return\ UP;}\nreturn\ 0;\n}\n
+comment10.params=Y\ X\ direction\ warningMap\ iterator
+comment10.target=int[][]\ createWarningMap(int,\ int,\ int,\ int[][],\ int)
+comment11.params=Y\ X\ direction\ warningMap\ iterator
+comment11.target=int[][]\ createWarningMap1(int,\ int,\ int,\ int[][],\ int)
+comment11.text=\n\n@pre\:\ \n@post\:\n\n
+comment12.params=map\ x\ y\ depth
+comment12.target=void\ fill(int[][],\ int,\ int,\ int)
+comment13.target=int[][]\ generate()
+comment14.params=start\ end\ warningMap
+comment14.target=void\ goToFrom(int[],\ int[],\ int[][])
+comment2.params=map\ XREDCHUCK\ YREDCHUCK\ XSnake\ YSnake\ lvl
+comment2.target=int\ position(int[][],\ int,\ int,\ int,\ int,\ int)
+comment2.text=\n\n@pre\:\ \n@post\:\n\n
+comment3.target=boolean\ Hidden()
+comment4.params=XSnake\ YSnake
+comment4.target=int[][]\ createWarningMap(int[],\ int[])
+comment5.params=XSnake\ YSnake
+comment5.target=int[][]\ createWarningMap1(int,\ int)
+comment5.text=\n\n@pre\:\ \n@post\:\n\n
+comment6.params=XREDCHUCK\ YREDCHUCK\ XSnake\ YSnake
+comment6.target=int\ trouverLaBonnePosition(int,\ int,\ int[],\ int[])
+comment7.params=XREDCHUCK\ YREDCHUCK\ XSnake\ YSnake
+comment7.target=int\ trouverLaBonnePosition1(int,\ int,\ int,\ int)
+comment7.text=\n\n@pre\:\ \n@post\:\n\n
+comment8.params=down\ up\ right\ left\ center\ TERRAIN\ XREDCHUCK\ YREDCHUCK\ egality\ iterator
+comment8.target=int\ calculatemax(int,\ int,\ int,\ int,\ int,\ int[][],\ int,\ int,\ String,\ int)
+comment9.params=TERRAIN
+comment9.target=int[][]\ createDoubleWarningMap(int[][])
+comment9.text=private\ static\ int[][]\ createDoubleWarningMap\ (int[][]\ TERRAIN)\n{\nint[][]\ TERRAIN2\ \=\ new\ int[TERRAIN[0].length][TERRAIN.length];\nfor\ (int\ i\ \=\ 0;\ i\ <\ TERRAIN[0].length\ ;\ i++)\n{\nfor\ (int\ j\ \=\ 0;\ j\ <\ TERRAIN.length\ ;\ j++)\n{\nif\ (map[i][j]\ \=\=\ WALL\ ||\ map[i][j]\ \=\=\ HEAD_UP\ ||\ map[i][j]\ \=\=\ HEAD_LEFT\ ||\ map[i][j]\ \=\=\ HEAD_RIGHT\ ||\ map[i][j]\ \=\=\ HEAD_DOWN\ ||\ map[i][j]\ \=\=\ CORPS\ ||\ map[i][j]\ \=\=\ TAIL\ )\n{\nTERRAIN2[i][j]\ \=\ 0;\n}\nelse\n{\t\nint\ somme\ \=\ TERRAIN[i][j];\nif\ (i\ \!\=\ 0)\n{\nsomme\ +\=\ TERRAIN[i-1][j];\n}\nif\ (j\ \!\=\ 0)\n{\nsomme\ +\=\ TERRAIN[i][j-1];\n}\nif\ (i\ \!\=\ TERRAIN[0].length\ -\ 1)\n{\nsomme\ +\=\ TERRAIN[i+1][j];\n}\nif\ (j\ \!\=\ TERRAIN.length\ -\ 1)\n{\nsomme\ +\=\ TERRAIN[i][j+1];\n}\nTERRAIN2[i][j]\ \=\ somme%2147483647;\n}\n}\n}\nreturn\ TERRAIN2;\n}\n\n
+numComments=15

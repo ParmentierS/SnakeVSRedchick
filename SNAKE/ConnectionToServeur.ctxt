@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ConnectionToServeur()
+comment0.text=\n\n\n@pre\ \:\n@post\:\n\n
+comment1.target=void\ CloseConnection()
+comment1.text=\n\n\n@pre\ \:\n@post\:\n\n
+comment2.params=IP
+comment2.target=boolean\ Connection(String)
+comment2.text=\n\n\n@pre\ \:\n@post\:\n\n
+comment3.params=name\ password
+comment3.target=boolean\ ConnectCompte(String,\ String)
+comment3.text=\n\n\n@pre\ \:\n@post\:\n\n
+comment4.params=Information
+comment4.target=boolean\ Send(String)
+comment4.text=\n\n\n@pre\ \:\n@post\:\n\n
+comment5.target=String\ Recive()
+comment5.text=\n\n\n@pre\ \:\n@post\:\n\n
+comment6.params=is
+comment6.target=void\ IsRun(boolean)
+comment6.text=\n\n\n@pre\ \:\n@post\:\n\n
+comment7.target=void\ run()
+comment7.text=\n\n\n@pre\ \:\n@post\:\n\n
+numComments=8

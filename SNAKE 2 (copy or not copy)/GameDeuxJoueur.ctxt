@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=menu
+comment0.target=GameDeuxJoueur(JFrame)
+comment1.params=set
+comment1.target=void\ setVisible(boolean)
+comment1.text=\n@pre\ \:\n@post\:\n\n\n
+comment2.target=void\ run()
+comment2.text=\n@pre\ \:\n@post\:\n\n\n
+comment3.target=void\ SnakeMotion()
+comment3.text=\n\nm\u00E9thode\ coordonnant\ le\ mouvement\ du\ serpent\ au\ clavier.\n\n@pre\ \:\n@post\:\ modifie\ le\ carte\n\n
+comment4.target=void\ SnakeMotion2()
+numComments=5

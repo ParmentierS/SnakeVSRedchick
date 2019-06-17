@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=menu
+comment0.target=GameReseauClient(JFrame)
+comment1.target=void\ run()
+comment1.text=\n@pre\ \:\n@post\:\n\n\n
+comment2.target=void\ NewGame()
+comment3.params=lvl
+comment3.target=void\ NextGame(int)
+comment4.params=Y\ X\ ELEM
+comment4.target=void\ AcctualyseMap(int,\ int,\ int)
+comment5.target=void\ exit()
+numComments=6

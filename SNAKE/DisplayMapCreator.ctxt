@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=DisplayMapCreator()
+comment0.text=\nConstructeur\ d'un\ espace\ graphique\ pour\ le\ jeux.\n\n@pre\:\ \n@post\:\ Cr\u00E9ation\ d'un\ espace\ graphique\ sur\ lequel\ sera\ afficher\ la\ partie\ graphique\ du\ jeux.\n\n
+comment1.target=void\ NewMap()
+comment2.params=name
+comment2.target=void\ LoadMap(String)
+comment3.params=name
+comment3.target=void\ SaveMap(String)
+comment4.params=x\ y\ ID
+comment4.target=void\ ChangeElementMap(int,\ int,\ int)
+comment5.params=g
+comment5.target=void\ paintComponent(Graphics)
+comment5.text=\nCr\u00E9ation\ de\ l'espace\ graphique.\n\n@pre\:\ -\n@post\:\ Cr\u00E9ation\ de\ l'espace\ graphique.\n\n
+numComments=6

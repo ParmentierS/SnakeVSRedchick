@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=m\ a\ lvl
+comment0.target=void\ Write(int[],\ int,\ int)
+comment0.text=\npermet\ la\ sauvegarde\ de\ map\ sous\ forme\ de\ fichier\ .SNAKEMAP\ \n\n@pre\:\ int\ a\ correspond\ au\ nom\ de\ la\ map,\ lvl\ a\ sont\ niveau\ de\ difficulter,\ et\ m\ la\ map\ a\ enregister.\n@post\:\ grave\ un\ fichier\ contenent\ toutes\ les\ information.\n\n
+comment1.params=m\ redchik\ snake\ lvl\ name
+comment1.target=void\ Save(int[],\ int[],\ Snake,\ int,\ String)
+comment1.text=\npermet\ la\ sauvegarde\ de\ map\ sous\ forme\ de\ fichier\ .SNAKEMAP\ \n\n@pre\:\ int\ a\ correspond\ au\ nom\ de\ la\ map,\ lvl\ a\ sont\ niveau\ de\ difficulter,\ et\ m\ la\ map\ a\ enregister.\n@post\:\ grave\ un\ fichier\ contenent\ toutes\ les\ information.\n\n
+comment2.params=m\ redchik\ snake1\ snake2\ lvl\ name
+comment2.target=void\ Save(int[],\ int[],\ Snake,\ Snake,\ int,\ String)
+comment2.text=\npermet\ la\ sauvegarde\ de\ map\ sous\ forme\ de\ fichier\ .SNAKEMAP\ \n\n@pre\:\ int\ a\ correspond\ au\ nom\ de\ la\ map,\ lvl\ a\ sont\ niveau\ de\ difficulter,\ et\ m\ la\ map\ a\ enregister.\n@post\:\ grave\ un\ fichier\ contenent\ toutes\ les\ information.\n\n
+comment3.params=m\ name\ MultiJ
+comment3.target=void\ Save(int[],\ String,\ boolean)
+comment3.text=\npermet\ la\ sauvegarde\ de\ map\ sous\ forme\ de\ fichier\ .SNAKEMAP\ \n\n@pre\:\ int\ a\ correspond\ au\ nom\ de\ la\ map,\ lvl\ a\ sont\ niveau\ de\ difficulter,\ et\ m\ la\ map\ a\ enregister.\n@post\:\ grave\ un\ fichier\ contenent\ toutes\ les\ information.\n\n
+comment4.params=filename
+comment4.target=monde\ Read(String)
+comment4.text=\npermet\ la\ lecture\ d'une\ map\ .SNAKEMAP\ \n\n@pre\:\ filename\ corespond\ au\ nom\ de\ la\ map.\n@post\:\ renvoi\ une\ mapcorrespondant\ au\ nom\ de\ fichier\ donner\ en\ argument.\n\n
+comment5.params=filename
+comment5.target=monde\ ReadMultiple(String)
+comment5.text=\npermet\ la\ lecture\ d'une\ map\ .SNAKEMAP\ \n\n@pre\:\ filename\ corespond\ au\ nom\ de\ la\ map.\n@post\:\ renvoi\ une\ mapcorrespondant\ au\ nom\ de\ fichier\ donner\ en\ argument.\n\n
+numComments=6

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=lvl\ x\ y
+comment0.target=RedChick(int,\ int,\ int)
+comment0.text=\n\n\n\n
+comment1.params=map\ XREDCHUCK\ YREDCHUCK\ XSnake\ YSnake\ lvl
+comment1.target=int\ position(int[],\ int,\ int,\ int,\ int,\ int)
+comment1.text=\n\n@pre\:\ \n@post\:\n\n
+comment2.target=boolean\ Hidden()
+comment2.text=\n\n@pre\:\ \n@post\:\n\n
+comment3.params=XSnake\ YSnake
+comment3.target=int[]\ createWarningMap(int,\ int)
+comment3.text=\n\n@pre\:\ \n@post\:\n\n
+comment4.params=XREDCHUCK\ YREDCHUCK\ XSnake\ YSnake
+comment4.target=int\ trouverLaBonnePosition(int,\ int,\ int,\ int)
+comment4.text=\n\n@pre\:\ \n@post\:\n\n
+comment5.params=down\ up\ right\ left\ center\ TERRAIN\ XREDCHUCK\ YREDCHUCK\ egality\ iterator
+comment5.target=int\ calculatemax(int,\ int,\ int,\ int,\ int,\ int[],\ int,\ int,\ String,\ int)
+comment5.text=\n\n@pre\:\ \n@post\:\n\n
+comment6.params=TERRAIN
+comment6.target=int[]\ createDoubleWarningMap(int[])
+comment6.text=\n\n@pre\:\ \n@post\:\n\n
+comment7.params=Y\ X\ direction\ warningMap\ iterator
+comment7.target=int[]\ createWarningMap(int,\ int,\ int,\ int[],\ int)
+comment7.text=\n\n@pre\:\ \n@post\:\n\n
+numComments=8

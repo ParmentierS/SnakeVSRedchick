@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Snake()
+comment0.text=\ninitialise\ les\ variable\ d'instance\n\n
+comment1.params=X\ Y
+comment1.target=void\ add(int,\ int)
+comment1.text=\nrajoute\ un\ \u00E9l\u00E9ment\ corporel\ au\ serpent.\n\n@pre\:\ X\ et\ Y\ corresponde\ au\ coordoner\ nouvelle\ de\ la\ tete\ du\ serpent.\n@post\:\ ajoute\ au\ tableau\ un\ \u00E9l\u00E9ment\ au\ serpent.\n\n
+comment2.target=void\ del()
+comment2.text=\nracourci\ le\ serpent\ d'un\ \u00E9l\u00E9ment\ corporel,\ sa\ queu.\n\n@pre\:\ -\n@post\:\ racourci\ la\ queu\ du\ serpent.\n\n
+comment3.target=int\ getTailX()
+comment3.text=\n@pre\:\ -\n@post\:\ retourne\ les\ coordoner\ X\ de\ la\ queu\ du\ serpent\n\n
+comment4.target=int\ getTailY()
+comment4.text=\n@pre\:\ -\n@post\:\ retourne\ les\ coordoner\ Y\ de\ la\ queu\ du\ serpent\n\n
+numComments=5

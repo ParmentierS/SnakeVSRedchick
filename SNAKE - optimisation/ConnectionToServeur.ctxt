@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=Parent
+comment0.target=ConnectionToServeur(GameReseauClient)
+comment0.text=\n\n\n@pre\ \:\n@post\:\n\n
+comment1.target=void\ CloseConnection()
+comment1.text=\n\n\n@pre\ \:\n@post\:\n\n
+comment2.params=IP
+comment2.target=boolean\ Connection(String)
+comment2.text=\n\n\n@pre\ \:\n@post\:\n\n
+comment3.params=Information
+comment3.target=boolean\ Send(String)
+comment3.text=\n\n\n@pre\ \:\n@post\:\n\n
+comment4.params=is
+comment4.target=void\ IsRun(boolean)
+comment4.text=\n\n\n@pre\ \:\n@post\:\n\n
+comment5.target=void\ run()
+comment5.text=\n\n\n@pre\ \:\n@post\:\n\n
+numComments=6
